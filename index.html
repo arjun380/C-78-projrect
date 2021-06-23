@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Family</title>
+    </head>
+  <body>
+    <audio id="audio1" src="https://mahdihat791.github.io/v2/test.mp3"></audio>
+    <h1>My family photos </h1>
+        <button id="b1" type="button"onclick="lets_click()">next</button>
+      <script>
+        var ren = [ "Me and Mum", "family phto", " father and mother", "me and sister" ];
+var album = ["https://www.google.com/url?sa=i&url=http%3A%2F%2Fclipart-library.com%2Ffamily-images.html&psig=AOvVaw0ufMA1zpN8IaIMm8MmfWmJ&ust=1624505499749000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCMj_7t_orPECFQAAAAAdAAAAABAD", "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.123rf.com%2Fclipart-vector%2Fbrother_and_sister.html&psig=AOvVaw1-EASPNrKM0F04fvUCT5_j&ust=1624505553549000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCLjx3vnorPECFQAAAAAdAAAAABAD", "https://www.google.com/url?sa=i&url=http%3A%2F%2Fgetdrawings.com%2Fmother-and-father-clipart&psig=AOvVaw18PFExFVHgkhSkrrn0GBAl&ust=1624505597052000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPj0iY7prPECFQAAAAAdAAAAABAD"];
+i=0;
+function lets_click()
+{
+  document.getElementById("reason").innerHTML=ren[i];
+document.getElementById("image1").src =album[i];
+document.getElementById("audio1").play();
+i++;
+}
+
+      </script>
+  </body></html>
